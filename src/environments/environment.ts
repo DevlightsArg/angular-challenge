@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  dataSetUrl:
+    'https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15',
 };
 
 /*
